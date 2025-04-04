@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3108370953950681224}
   - component: {fileID: 2349394671910739300}
   - component: {fileID: 1894101118431306295}
+  - component: {fileID: 2777879457795108238}
   m_Layer: 0
   m_Name: GemBox
   m_TagString: Untagged
@@ -107,3 +108,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5568072, y: 0.103305854, z: 0.46223992}
   m_Center: {x: -0.000619054, y: 0.023752443, z: -0.014676498}
+--- !u!114 &2777879457795108238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5433530755688818885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

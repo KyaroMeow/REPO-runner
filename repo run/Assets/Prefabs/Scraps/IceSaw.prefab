@@ -95,6 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6826376016944010636}
   - component: {fileID: 645186445564228684}
+  - component: {fileID: -2085244982095576300}
   m_Layer: 0
   m_Name: IceSaw
   m_TagString: Untagged
@@ -143,6 +144,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.6205919, y: 1.364778, z: 0.72222847}
   m_Center: {x: 0.18031038, y: 0.3836422, z: 0.53187484}
+--- !u!114 &-2085244982095576300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948162801154409776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0
 --- !u!1 &2173295896915927854
 GameObject:
   m_ObjectHideFlags: 0

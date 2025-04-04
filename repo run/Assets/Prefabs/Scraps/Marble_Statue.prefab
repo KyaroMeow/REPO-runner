@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7077974058333443153}
   - component: {fileID: 3422746392983766084}
   - component: {fileID: 908334429518190343}
+  - component: {fileID: -9076767371394580788}
   m_Layer: 0
   m_Name: Marble_Statue
   m_TagString: Untagged
@@ -107,3 +108,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7244378, y: 2.9851084, z: 0.6670821}
   m_Center: {x: 0.029668543, y: 1.4926331, z: 0.42126396}
+--- !u!114 &-9076767371394580788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6716107525137725971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

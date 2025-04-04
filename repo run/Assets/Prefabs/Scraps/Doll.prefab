@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8315632450614908457}
   - component: {fileID: 9027461560666329284}
   - component: {fileID: 8094000099040233353}
+  - component: {fileID: -2979135447903236646}
   m_Layer: 0
   m_Name: Doll
   m_TagString: Untagged
@@ -108,3 +109,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5072675645948834201, guid: 1fe6abb9e09a3134a9cfe724bc1be001, type: 3}
+--- !u!114 &-2979135447903236646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114496436252607072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

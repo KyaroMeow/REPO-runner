@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5405675090983789427}
   - component: {fileID: 573127858447525119}
   - component: {fileID: 4668723807700475712}
+  - component: {fileID: 5014579214633605446}
   m_Layer: 0
   m_Name: WizardCubeOfKnowledge
   m_TagString: Untagged
@@ -107,3 +108,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1667355, y: 1.1667352, z: 1.1667355}
   m_Center: {x: 0.00000014901164, y: 0.5859153, z: -0.0000022053719}
+--- !u!114 &5014579214633605446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133248967448033401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

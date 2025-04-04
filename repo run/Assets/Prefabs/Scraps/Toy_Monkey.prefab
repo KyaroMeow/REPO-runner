@@ -350,6 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8276602737787814346}
   - component: {fileID: 5557719699936820052}
+  - component: {fileID: -4544052096933230109}
   m_Layer: 0
   m_Name: Toy_Monkey
   m_TagString: Untagged
@@ -397,3 +398,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.37016574, y: 0.4293485, z: 0.2918921}
   m_Center: {x: -0.000000007630714, y: 0.20999998, z: 0.061670642}
+--- !u!114 &-4544052096933230109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8655976636880843978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

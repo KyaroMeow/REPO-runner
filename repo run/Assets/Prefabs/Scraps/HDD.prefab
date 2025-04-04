@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3379675779407817240}
   - component: {fileID: 5912215174722274746}
   - component: {fileID: 1920406664748500489}
+  - component: {fileID: 2475654309744173902}
   m_Layer: 0
   m_Name: HDD
   m_TagString: Untagged
@@ -107,3 +108,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5979158, y: 0.10848879, z: 0.38398728}
   m_Center: {x: 7.708593e-16, y: 0.054236766, z: -0.0000019073486}
+--- !u!114 &2475654309744173902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6959779597286005783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

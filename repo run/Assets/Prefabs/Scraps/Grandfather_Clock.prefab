@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8744174119548832096}
   - component: {fileID: 339012722064260394}
+  - component: {fileID: 8613808205045535317}
   m_Layer: 0
   m_Name: Grandfather_Clock
   m_TagString: Untagged
@@ -56,6 +57,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.90509564, y: 0.46820244, z: 3.3660557}
   m_Center: {x: 0.0062719206, y: -0.21401304, z: 1.6911362}
+--- !u!114 &8613808205045535317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4973946680642465263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0
 --- !u!1 &5891408345027826728
 GameObject:
   m_ObjectHideFlags: 0

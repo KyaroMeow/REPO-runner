@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3029432623004390908}
   - component: {fileID: 20231207363024267}
   - component: {fileID: 8616043065537210751}
+  - component: {fileID: 198625283899748768}
   m_Layer: 0
   m_Name: Bonsai
   m_TagString: Untagged
@@ -107,3 +108,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.32820547, y: 0.5590528, z: 0.6375301}
   m_Center: {x: 0.017549157, y: 0.27951878, z: -0.02119261}
+--- !u!114 &198625283899748768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446401086797304191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

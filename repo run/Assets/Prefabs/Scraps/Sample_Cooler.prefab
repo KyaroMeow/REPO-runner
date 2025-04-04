@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7781152687160612519}
   - component: {fileID: 4633315802098308117}
   - component: {fileID: 9122422216030901814}
+  - component: {fileID: -1106980253273798634}
   m_Layer: 0
   m_Name: Sample_Cooler
   m_TagString: Untagged
@@ -107,3 +108,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1654509, y: 1.0458599, z: 1.3476694}
   m_Center: {x: 0.009333105, y: 0.52791816, z: -1.390135e-10}
+--- !u!114 &-1106980253273798634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501352256207385672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8101936428210157108}
   - component: {fileID: 8363999051141151600}
   - component: {fileID: 1656112976924415943}
+  - component: {fileID: 1263772501633117605}
   m_Layer: 0
   m_Name: ScienceStation
   m_TagString: Untagged
@@ -107,3 +108,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5465438, y: 3.1076043, z: 2.4682229}
   m_Center: {x: -0.06358654, y: -0.0034615395, z: 0.008736611}
+--- !u!114 &1263772501633117605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6608831075094619260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3366873278881992438}
   - component: {fileID: 2100264094613192942}
   - component: {fileID: 2269080778349558357}
+  - component: {fileID: 5126420124895987380}
   m_Layer: 0
   m_Name: Animal_Crate
   m_TagString: Untagged
@@ -107,3 +108,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.3658202, y: 2.3658197, z: 1.0378182}
   m_Center: {x: 0.00063347816, y: -0.003647625, z: -0.000000953679}
+--- !u!114 &5126420124895987380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7384003569700710103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

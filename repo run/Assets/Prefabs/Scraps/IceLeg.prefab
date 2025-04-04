@@ -181,6 +181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7432623476833638593}
   - component: {fileID: 7574728475957725680}
+  - component: {fileID: 3681758979481233760}
   m_Layer: 0
   m_Name: IceLeg
   m_TagString: Untagged
@@ -225,3 +226,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.90854824, y: 1.2964324, z: 1.1533614}
   m_Center: {x: 0.44953752, y: 0.65959007, z: -0.013079891}
+--- !u!114 &3681758979481233760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6598587831023582445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

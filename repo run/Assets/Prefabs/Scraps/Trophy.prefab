@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4683543421437919172}
   - component: {fileID: 1788586894946385892}
   - component: {fileID: 4735589222489760802}
-  - component: {fileID: 5386835413755406695}
+  - component: {fileID: 4111771994301531456}
+  - component: {fileID: 9136663960399075054}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -86,8 +87,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5386835413755406695
-MeshCollider:
+--- !u!65 &4111771994301531456
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,7 +105,20 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -280486517752991454, guid: 1fe6abb9e09a3134a9cfe724bc1be001, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.77727914, y: 1.3212817, z: 0.41069973}
+  m_Center: {x: 1.4142119e-22, y: 0.66341746, z: -0.000000014901161}
+--- !u!114 &9136663960399075054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2394717852823005642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 3320264040268044562}
   - component: {fileID: 4800090895939212838}
   - component: {fileID: 6286206977654911628}
-  - component: {fileID: 1715599875062334982}
+  - component: {fileID: 8125076006968391096}
+  - component: {fileID: -6988639305848780580}
   m_Layer: 0
   m_Name: Uranium_Plate
   m_TagString: Untagged
@@ -86,8 +87,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1715599875062334982
-MeshCollider:
+--- !u!65 &8125076006968391096
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,7 +105,20 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5327577195718442445, guid: 1fe6abb9e09a3134a9cfe724bc1be001, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.4479451, y: 0.032159343, z: 0.4479451}
+  m_Center: {x: -1.5855786e-33, y: 0.016079672, z: 0}
+--- !u!114 &-6988639305848780580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439236539432273324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0

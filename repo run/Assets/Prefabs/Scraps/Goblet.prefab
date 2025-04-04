@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 897804744172608187}
   - component: {fileID: 9056768808812682001}
   - component: {fileID: 1112295232681094538}
-  - component: {fileID: 596087019128356214}
+  - component: {fileID: 965131867032556602}
+  - component: {fileID: 8397121966482001797}
   m_Layer: 0
   m_Name: Goblet
   m_TagString: Untagged
@@ -86,8 +87,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &596087019128356214
-MeshCollider:
+--- !u!114 &965131867032556602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2793847928772014842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0
+--- !u!65 &8397121966482001797
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,7 +119,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5523277661179574252, guid: 1fe6abb9e09a3134a9cfe724bc1be001, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.14540273, y: 0.23788498, z: 0.14540279}
+  m_Center: {x: 0.0000005699694, y: 0.11940146, z: 0}

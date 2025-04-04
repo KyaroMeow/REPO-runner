@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 1044287858233082848}
   - component: {fileID: 6538099218056311364}
   - component: {fileID: 5220594372974083969}
-  - component: {fileID: 1787794491376256913}
+  - component: {fileID: 6364520980724171119}
+  - component: {fileID: 3877294337997787662}
   m_Layer: 0
   m_Name: Vase
   m_TagString: Untagged
@@ -86,8 +87,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1787794491376256913
-MeshCollider:
+--- !u!65 &6364520980724171119
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,7 +105,20 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7720627979024836353, guid: 1fe6abb9e09a3134a9cfe724bc1be001, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.36031517, y: 0.8611379, z: 0.36031517}
+  m_Center: {x: 0.000000029802322, y: 0.4312577, z: 0}
+--- !u!114 &3877294337997787662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6455451883759213003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c2a22d555ada84ea1066716c93f96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Price: 0
